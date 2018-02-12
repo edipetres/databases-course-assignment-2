@@ -1,7 +1,5 @@
 # Twitter Dataset Analysis
 
-This repository is a self-contained dataset analysis.
-
 This project is an analysis of a dataset with 1.600.000 tweets. A mongodb container instance is running with Docker and it stores the data extracted from the `.csv` file of the dataset. These tweets are analysed to find the asnwers to the questions presented in the assignment. You can see the output in the [Results](#results) below.
 
 ## Prerequisites
