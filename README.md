@@ -10,6 +10,8 @@ The following CLI tools are required to run this project:
 - git
 - python3
 
+If you don't have python3 installed, try changing it to python in the `setup.sh` script - however, I cannot guarantee it will run on python 2.
+
 ## Getting started
 
 Run the following script from its directory to get started
