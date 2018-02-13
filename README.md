@@ -75,6 +75,14 @@ Top 5 mad users (negative words found):
  ('JonathanRKnight', 12),
  ('heidimontag', 12)]
 
+ # EDIT: The same is the case with question 3. Please see the full results:
+ 3. Most mentioned users
+[('mileycyrus', 403),
+ ('tommcfly', 402),
+ ('ddlovato', 285),
+ ('DavidArchie', 150),
+ ('mitchelmusso', 116)]
+
 4. Most active Twitter users:
 [('lost_dog', 549),
  ('webwoke', 345),
