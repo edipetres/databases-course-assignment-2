@@ -13,7 +13,7 @@ def get_distinct_users():
   users_len = len(db.tweets.distinct('user'))
   print("\n1. Individual twitter users:", users_len, '\n')
 
-def get_mention_stats(query_limit=10000, results_limit=10):
+def get_mention_stats(query_limit=0, results_limit=10):
   mentioned_users = {}
   linkers_dict = {}
   

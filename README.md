@@ -55,6 +55,19 @@ Top 5 mad users (negative words found):
  ('Roonaldo107', 5),
  ('amysav83', 5)]
 
+ # EDIT: I removed the limitation left in the code that made it only check 10.000 tweets
+ # The result of querying the entire db for question 2:
+ [('tweetpet', 310),
+ ('lost_dog', 131),
+ ('nuttychris', 82),
+ ('keren4562', 74),
+ ('mcraddictal', 69),
+ ('kasey79', 50),
+ ('Djalfy', 44),
+ ('tsarnick', 41),
+ ('sebby_peek', 39),
+ ('ComedyQueen', 37)]
+
 3. Most mentioned users
 [('mileycyrus', 23),
  ('Kal_Penn', 15),
