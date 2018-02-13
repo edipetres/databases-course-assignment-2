@@ -1,6 +1,6 @@
 # Twitter Dataset Analysis
 
-This repository is a self-contained dataset analysis.
+This project is an analysis of a dataset with 1.600.000 tweets. A mongodb container instance is running with Docker and it stores the data extracted from the `.csv` file of the dataset. These tweets are analysed to find the asnwers to the questions presented in the assignment. You can see the output in the [Results](#results) below.
 
 ## Prerequisites
 
@@ -14,13 +14,13 @@ If you don't have python3 installed, try changing it to python in the `setup.sh`
 
 ## Getting started
 
-Run the following script from its directory to get started
+Once you cloned the repo and cd'd into it run the `setup.sh` script to get started
 
 ```sh
-sudo ./setup.sh
+./setup.sh
 ```
 
-This command will extract the dataset. It spins up a mongo database locally with a data volume mounted to the `data` folder using Docker. Then it populates the database with the extracted dataset. Finally, it runs the Python script to analyse the data and prints out the results.
+This command will extract the dataset. It spins up a mongo database locally in a Docker container with a data volume mounted to the `data` folder. Then it populates the database with the extracted dataset. Finally, it runs the Python script to analyse the data and prints out the results.
 
 ## Results
 
